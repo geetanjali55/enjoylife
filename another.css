@@ -1,0 +1,288 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.container {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #2b4891; /* Blue header background */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    position: relative; /* Position relative for logo positioning */
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+.hero {
+    background-color: #7875d1; /* Purple hero background */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease; /* Fade in animation */
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease; /* Fade in animation */
+    animation-delay: 0.5s; /* Delay animation */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #43338a;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.btn:hover {
+    background-color: #6649a2; /* Dark red color on hover */
+}
+
+.features {
+    background-color: #8692b5;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease; /* Fade in animation */
+}
+
+.feature i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #4d2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card-section {
+    background-color: #f2f2f2; /* Background color for card section */
+    padding: 50px 0; /* Padding for spacing */
+    text-align: center; /* Center align content */
+    background-color: #b9b8e1;
+}
+
+.card {
+    background-color: #fff; /* Card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px; /* Margin between cards */
+    display: inline-block; /* Display as inline block */
+    width: calc(33.33% - 40px); /* Calculate card width */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ccc; /* Border line at the bottom */
+}
+
+.card-content {
+    padding: 20px; /* Padding for content */
+}
+
+.card-content h2 {
+    font-size: 25px; /* Title font size */
+    margin-bottom: 10px; /* Bottom margin for title */
+}
+
+.card-content p {
+    color: #666; /* Text color */
+    font-size: 16px; /* Font size for description */
+    margin-bottom: 15px; /* Bottom margin for description */
+}
+
+.btn {
+    display: inline-block; /* Display as inline block */
+    padding: 8px 16px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Button color on hover */
+}
+header {
+    background-color: #653bb7;
+    color: #fff;
+    padding: 50px 0; /* Increase top and bottom padding */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px; /* Increase font size */
+    margin-bottom: 10px; /* Increase bottom margin */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; /* Increase right margin */
+}
+.card {
+    background-color: #f2f2f2; /* Background color for cards */
+    box-shadow: 0 4px 8px rgba(108, 14, 14, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px; /* Margin between cards */
+    display: inline-block; /* Display as inline block */
+    width: calc(33.33% - 40px); /* Calculate card width */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+/* Additional styling for the cards */
+.card {
+    background-color: #f8f8f8; /* Light gray background */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 2px; /* Increased margin between cards */
+    display: inline-block;
+    width: calc(33.33% - 40px); /* Calculate card width */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Add smooth transition for transform and border-color */
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    border-color: #5e4ea6; /* Darker border color on hover */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Rounded top corners for image */
+    transition: transform 0.3s ease; /* Add smooth transition for transform */
+}
+
+.card:hover img {
+    transform: scale(1.05); /* Scale up image on hover */
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 24px; /* Decreased title font size */
+    margin-bottom: 15px; /* Increased bottom margin for title */
+    color: #333; /* Darker title color */
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Increased padding for button */
+    background-color: #5e4ea6; /* Purple button background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px; /* Rounded button */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4d2a2a; /* Darker purple button background on hover */
+}
