@@ -286,3 +286,60 @@ nav ul li {
 .btn:hover {
     background-color: #4d2a2a; /* Darker purple button background on hover */
 }
+.card {
+    background-color: #f8f8f8; /* Light gray background for cards */
+    box-shadow: 0 4px 8px rgba(108, 14, 14, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px 5px; /* Adjusted margin between cards */
+    display: inline-block; /* Display as inline block */
+    width: calc(25% - 10px); /* Calculate card width and include margin */
+    transition: transform 0.3s ease; /* Add smooth transition */
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px 10px 0 0; /* Rounded top corners for image */
+    transition: transform 0.3s ease; /* Add smooth transition for transform */
+}
+
+.card:hover img {
+    transform: scale(1.05); /* Scale up image on hover */
+}
+
+.card-content {
+    padding: 20px; /* Padding for content */
+}
+
+.card-content h2 {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 15px; /* Bottom margin for title */
+    color: #333; /* Darker title color */
+}
+
+.card-content p {
+    font-size: 16px; /* Font size for description */
+    color: #666; /* Text color */
+    margin-bottom: 20px; /* Bottom margin for description */
+}
+
+.btn {
+    display: inline-block; /* Display as inline block */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #5e4ea6; /* Purple button background */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 6px; /* Rounded button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #4d2a2a; /* Darker purple button background on hover */
+}
+
