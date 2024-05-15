@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #271f4a; /* Updated navbar color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Center align text */
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #000000; /* Pastel Dream background color */
+    height: 600px; /* Increase the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+/* Add CSS styles for cards */
+
+.card-section {
+    background-color: #f2f2f2; /* Background color for card section */
+    padding: 50px 0; /* Padding for spacing */
+    text-align: center; /* Center align content */
+    background-color: #b9b8e1;
+}
+
+.card {
+    background-color: #fff; /* Card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px; /* Margin between cards */
+    display: inline-block; /* Display as inline block */
+    width: calc(33.33% - 40px); /* Calculate card width */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ccc; /* Border line at the bottom */
+}
+
+.card-content {
+    padding: 20px; /* Padding for content */
+}
+
+.card-content h2 {
+    font-size: 25px; /* Title font size */
+    margin-bottom: 10px; /* Bottom margin for title */
+}
+
+.card-content p {
+    color: #666; /* Text color */
+    font-size: 16px; /* Font size for description */
+    margin-bottom: 15px; /* Bottom margin for description */
+}
+
+.btn {
+    display: inline-block; /* Display as inline block */
+    padding: 8px 16px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Button color on hover */
+}
+header {
+    background-color: #3f5da9;
+    color: #fff;
+    padding: 50px 0; /* Increase top and bottom padding */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px; /* Increase font size */
+    margin-bottom: 10px; /* Increase bottom margin */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; /* Increase right margin */
+}
+.card {
+    background-color: #f2f2f2; /* Background color for cards */
+    box-shadow: 0 4px 8px rgba(108, 14, 14, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content */
+    margin: 10px; /* Margin between cards */
+    display: inline-block; /* Display as inline block */
+    width: calc(33.33% - 40px); /* Calculate card width */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
